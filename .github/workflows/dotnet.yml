@@ -49,7 +49,7 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4.1.8
       with:
-        name: webapp
+        name: website-artifact
         path: webapp
     - name: Deploy web app
       uses: azure/webapps-deploy@v2
